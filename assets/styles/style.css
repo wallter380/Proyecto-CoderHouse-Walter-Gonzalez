@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f8f4;
+}
+/* Index */
+.div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+    /* Footer */
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 100px;
+    height: 100px;
+}
+.pie-pagina .grupo-1 .box .links-paginas{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box a{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+/* Reprocann */
+.section-repro{
+    padding: 1% 1% 1% 1%;
+    font-size: larger;
+}
+.repro-titu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+.repro-h1{
+    display: flex;
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(78, 202, 78);
+}
+.repro-h1-p{
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+.repro-h1:hover{
+    transform: scale(1.01);
+}
+.repro-h2{
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(78, 202, 78);
+}
+.repro-h2:hover{
+    transform: scale(1.01);
+}
+.div-rep-guia{
+    margin: 1.5% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+.div-repro-dura{
+    margin: 1.5% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+.li-repro{
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+}
+.li-repro:hover{
+    transform: scale(0.98);
+}
+/* Aceites */
+.section-aceite{
+    display: flex;    
+    margin: 0.5%;
+    padding: 1%;
+    height: auto;
+    font-size: larger;
+}
+.container-a-h1:hover{
+    transform: scale(1.01);
+}
+.bho-h2:hover{
+    transform: scale(1.01);
+}
+.a-rick-h2:hover{
+    transform: scale(1.01);
+}
+.a-cbd-h2:hover{
+    transform: scale(1.01);
+}
+.a-veg-h2:hover{
+    transform: scale(1.01);
+}
+.container-a-1{
+    display: flex;
+    flex-direction: column;    
+    padding: 0.5%;
+}
+.container-a-h1{
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(78, 202, 78);
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.container-ol{
+    padding: 0.5%;
+    margin-bottom: 0.5%;
+}
+.li-aceite:hover{
+    transform: scale(0.98);
+}
+.container-div-a-h1{    
+    padding: 0.5%;
+    margin-bottom: 0.5%;
+}
+.bho{    
+    padding: 0.5%;
+}
+.bho-h2{
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(78, 202, 78);
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.img-p-bho{
+    display: flex;    
+    padding: 0.5%;
+}
+.img-bho{
+    width: 400px;
+    height: 400px;
+    margin-right: 3%;
+}
+.bho-p{
+    font-size: large;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+/* Aceite Rick Simpson */
+.a-rick{
+    display: flex;
+    flex-direction: column;    
+    padding: 0.5%;
+}
+.a-rick-h2{
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(78, 202, 78);
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.img-rick{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.img-left{
+    width: 48%;
+}
+.img-right{
+    width: 48%;
+}
+/* Aceite CBD */
+.a-cbd{
+    display: flex;
+    flex-direction: column;    
+    padding: 0.5%;
+}
+.a-cbd-h2{
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(78, 202, 78);
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.cbd-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25em;    
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.img-cbd-1{
+    height: 22em;
+    margin-left: 1%;
+}
+.p-cbd-1{
+    text-align: center;
+}
+.cbd-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25em;    
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.img-cbd-2{
+    height: 22em;
+    margin-left: 1%;
+}
+.p-cbd-2{
+    text-align: center;
+}
+/* Aceite vegetal */
+.a-veg{
+    display: flex;
+    flex-direction: column;    
+    padding: 0.5%;
+}
+.a-veg-h2{
+    display: flex;
+    justify-content: center;    
+    background-color: rgb(78, 202, 78);
+    padding: 0.8%;
+    margin-bottom: 0.5%;
+}
+.p-veg{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5%;
+    text-align: center;
+}
+/* Contacto */
+.form-login {
+    width: 650px;
+    height: 500px;
+    background: rgb(78, 202, 78);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid rgb(78, 202, 78);
+    color: white;
+}
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+} 
+.controls {
+    width: 100%;
+    border: 1px solid rgb(61, 177, 61);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #f1f0f0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: rgb(44, 112, 44);
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-login a:hover {
+    text-decoration: underline;
+}
