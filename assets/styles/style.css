@@ -16,6 +16,11 @@ body{
     height: 100px;
     width: 100px;
 }
+.carousel{
+    width: 55%;
+    height: 55%;
+    margin: 10px auto;
+}
     /* Footer */
 .pie-pagina{
     width: 100%;
@@ -38,8 +43,8 @@ body{
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 .pie-pagina .grupo-1 .box .links-paginas{
     color: #fff;
@@ -131,7 +136,7 @@ body{
     transform: scale(0.98);
 }
 /* Aceites */
-.section-aceite{
+.main-aceite{
     display: flex;    
     margin: 0.5%;
     padding: 1%;
