@@ -10,16 +10,38 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 150px;
 }
 .logo{
     display: flex;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 .carousel{
-    width: 55%;
-    height: 55%;
+    width: 72%;
+    height: 72%;
     margin: 10px auto;
+}
+.section-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    border-radius: 15px;
+    margin: 0.5% 0.5%;
+    padding: 2px 2px;
+}
+.section-index:hover{
+    transform: scale(1.01);
+    background-color: rgb(78, 202, 78);
+}
+.section-index-carousel{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 1%;
+}
+.fondo-color{
+    background-color: rgb(78, 202, 78);
 }
     /* Footer */
 .pie-pagina{
@@ -103,6 +125,7 @@ body{
     display: flex;
     padding: 1% 1% 1% 1%;
     background-color: rgb(78, 202, 78);
+    border-radius: 25px;
 }
 .repro-h1-p{
     text-align: center;
@@ -116,6 +139,7 @@ body{
     margin: 1% 1% 1% 1%;
     padding: 1% 1% 1% 1%;
     background-color: rgb(78, 202, 78);
+    border-radius: 25px;
 }
 .repro-h2:hover{
     transform: scale(1.01);
@@ -169,6 +193,7 @@ body{
     background-color: rgb(78, 202, 78);
     padding: 0.8%;
     margin-bottom: 0.5%;
+    border-radius: 25px;
 }
 .container-ol{
     padding: 0.5%;
@@ -190,6 +215,7 @@ body{
     background-color: rgb(78, 202, 78);
     padding: 0.8%;
     margin-bottom: 0.5%;
+    border-radius: 25px;
 }
 .img-p-bho{
     display: flex;    
@@ -217,6 +243,7 @@ body{
     background-color: rgb(78, 202, 78);
     padding: 0.8%;
     margin-bottom: 0.5%;
+    border-radius: 25px;
 }
 .img-rick{
     display: flex;
@@ -242,6 +269,7 @@ body{
     background-color: rgb(78, 202, 78);
     padding: 0.8%;
     margin-bottom: 0.5%;
+    border-radius: 25px;
 }
 .cbd-1{
     display: flex;
@@ -285,12 +313,17 @@ body{
     background-color: rgb(78, 202, 78);
     padding: 0.8%;
     margin-bottom: 0.5%;
+    border-radius: 25px;
 }
 .p-veg{
     display: flex;
     flex-direction: row;
     padding: 0.5%;
     text-align: center;
+}
+/* Para Mobile */
+@media screen{
+    
 }
 /* Contacto */
 .form-login {
