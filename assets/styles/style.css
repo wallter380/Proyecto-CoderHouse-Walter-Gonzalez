@@ -137,14 +137,27 @@ body{
 }
 .img-quien-puede{
     display: flex;
-    width: auto;
+    margin: auto auto;
 }
-@media screen and (max-width:1500px){
+.img-dinero-o-salud{
+    display: flex;
+    margin: auto auto;
+    width: 1000px;
+    height: 600px;
+}
+@media screen and (max-width:1600px){
     .img-quien-puede{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
+    }
+}
+@media screen and (max-width:1600px){
+    .img-dinero-o-salud{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        height: 50%;
     }
 }
 .repro-h2{
@@ -334,8 +347,12 @@ body{
     text-align: center;
 }
 /* Para Mobile */
-@media screen{
-    
+@media screen and (max-width:1500px){
+    .main-aceite{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
 /* Contacto */
 .form-login {
@@ -387,4 +404,26 @@ body{
 }
 .form-login a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width:1500px){
+    .form-login{
+        width: 90%;
+        height: 70%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* Sobre Nosotros */
+.sobrenosotros-img-1{
+    display: flex;
+    margin: auto auto;
+    width: 70%;
+    height: 700px;
+}
+@media screen and (max-width:1500px){
+    .sobrenosotros-img-1{
+        width: 80%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
