@@ -139,6 +139,14 @@ body{
     display: flex;
     width: auto;
 }
+@media screen and (max-width:1500px){
+    .img-quien-puede{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
 .repro-h2{
     margin: 1% 1% 1% 1%;
     padding: 1% 1% 1% 1%;
